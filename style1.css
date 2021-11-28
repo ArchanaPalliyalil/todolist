@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+label:hover, label:active, input:hover+label, input:active+label {
+   
+    cursor: pointer;
+ }
+ body{
+     background-image: url(./images/newimage.jpg);
+     background-size: cover;
+ }
+ .todo{
+    text-decoration: none; 
+    font-size: 25px;
+
+ }
+ .sign{
+    font-size: 25px;
+ }
+ .heading{
+     margin-top: 2%;
+    text-align: center;
+ }
+ #demo{
+    margin-left: 23%; 
+    width:50%; 
+    height: 550px;
+    overflow: auto; 
+    background-color:#192439;
+    opacity: 60%; 
+    padding: 5%;
+    font-family: monospace;
+    color: white;
+ }
+.todo a{
+    color: white;
+}

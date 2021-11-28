@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(./images/login.jpg);
+    background-size: cover;
+}
+form{
+    margin-top: 27%; 
+    width: 25%; 
+    margin-left: 35%;
+
+}
+#user h3{
+    text-align: center;
+
+
+}
+#user input{
+    border: 3px solid blue;
+
+}
+#pass input{
+    border: 3px solid blue;
+    
+}
+.btn{
+    margin-left: 37%;
+}
+#checkcredential{
+    color: red;
+}
+
+
+
+
